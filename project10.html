@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Personalizing Human Gait Entrainment</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/slideshow.css" /> <!-- External CSS for slideshow styles -->
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <a href="projects.html" class="logo">Projects</a>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+        <article>
+            <header class="major">
+                <h2>Personalizing Human Gait Entrainment</h2>
+                <a href="#" class="image main"><img id="shuffledImage" src="Image/RL/Picture1.png" alt="Neurological Disability Assistive Technology Device" /></a>
+            </header>
+            <!-- Text Content -->
+            <section>
+                <h3>What:</h3>
+                <p>This project investigates human gait entrainment in response to soft robotic hip perturbations on an active self-paced treadmill. Gait entrainment, the synchronization of human gait to external rhythmic stimuli, is a promising therapeutic approach for individuals with neurological disorders. This study employs a reinforcement learning (RL) approach to personalize perturbation magnitude, optimizing rehabilitation strategies for individual needs.</p>
+
+                <h3>How:</h3>
+                <p>The experimental setup consists of the following components:</p>
+                <ul>
+                    <li><strong>Soft Exosuit:</strong> A wearable system that applies periodic mechanical perturbations to the hip using pneumatic actuators.</li>
+                    <li><strong>Active Self-Paced Treadmill:</strong> An instrumented treadmill that adjusts speed dynamically based on participant movement, ensuring natural gait patterns.</li>
+                    <li><strong>Reinforcement Learning:</strong> A Deep Q-Network (DQN) optimizes perturbation magnitude based on real-time gait characteristics.</li>
+                </ul>
+                <p>The study methodology involved:</p>
+                <ul>
+                    <li><strong>Participant Trials:</strong> Twelve healthy individuals participated, divided into offline training and in-situ validation groups.</li>
+                    <li><strong>Data Collection:</strong> Gait characteristics, including entrainment success and phase variability, were recorded during perturbed walking trials.</li>
+                    <li><strong>RL Training & Validation:</strong> The DQN was trained on offline data to determine optimal perturbation magnitudes and then validated in real-time trials.</li>
+                </ul>
+
+                <h3>Results:</h3>
+                <p>Experimental results demonstrated the effectiveness of personalized perturbation magnitudes:</p>
+                <ul>
+                    <li><strong>Entrainment Success:</strong> Participants consistently achieved synchronization within the optimal perturbation range.</li>
+                    <li><strong>Phase Variability Reduction:</strong> The RL-optimized perturbations led to lower phase variability across strides.</li>
+                    <li><strong>Individualized Optimization:</strong> The study highlighted significant variability in optimal perturbation magnitudes, emphasizing the need for personalization.</li>
+                </ul>
+                <p>The findings suggest that reinforcement learning can enhance gait entrainment therapies by adapting perturbations to individual needs. This approach holds potential for improving rehabilitation strategies for individuals with neurological disorders, ultimately enhancing mobility and quality of life.</p>
+            </section>
+
+        </article>
+        <!-- Additional Buttons -->
+        <ul class="actions special">
+            <li><a href="https://drive.google.com/file/d/10dR-u7gR_75pD7_awhv35FtnlDa1m5Af/view?usp=sharing" class="button" target="_blank" rel="noopener noreferrer">Research Paper</a></li>
+            <!-- <li><a href="projects.html" class="button large">Back to Projects</a></li> -->
+        </ul>
+        <!-- Project Media with Image Carousel -->
+        <article>
+            <header class="major">
+                <h2>Project Media</h2>
+            </header>
+            <!-- Slideshow Container -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="Image/RL/Picture1.png" style="width:100%; height: auto;" alt="Image 1">
+                </div>
+                
+
+                <!-- Previous and Next Buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- Dots for Navigation -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </article>
+
+        <!-- Additional Buttons -->
+        <ul class="actions special">
+            <!-- GitHub Repo link needs to be updated -->
+            <li><a href="" class="button" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+            <!-- <li><a href="projects.html" class="button large">Back to Projects</a></li> -->
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="actions special">
+            <li><a href="projects.html" class="button large">Back to Projects</a></li>
+        </ul>
+    </footer>
+
+    <!-- JavaScript for Slideshow -->
+    <script src="assets/js/slideshow.js"></script> <!-- External JavaScript for slideshow functionality -->
+</body>
+</html>
